@@ -1,0 +1,32 @@
+.logout{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 80px ;
+    align-items: center;
+    border-bottom: 1px solid  gainsboro;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: radial-gradient(#474545, #8d755a 0%, #5d5858);
+   z-index: 999;
+  
+}
+.logout img{
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
+}
+.inner-logout{
+    display:flex;
+    justify-content:space-between;
+}
+
+@media screen and (max-width:427px) {
+   .logout{
+    padding: 10px 10px;
+   }    
+   .logout img{
+    width: 150px;
+    margin-right: 10px;
+   }
+}

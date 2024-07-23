@@ -1,0 +1,53 @@
+.sign-in-nav{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 80px ;
+    align-items: center;
+    border-bottom: 1px solid  gainsboro;
+  
+}
+.first-part{
+      background-color: #FFFFFF; 
+}
+.sign-in-nav img{
+    width: 200px;
+    height: 70px;
+}
+.second-div-in-sign img{
+    text-align: center;
+    width: 500px;
+    transform: translate(70%,0%);
+    position: relative;
+    height: 220px;
+}
+.sign-content{
+    margin-top: 30px;
+}
+.sign-content Button{
+    width: 300px;
+    padding: 20px;
+  margin-top: 10px;
+}
+.sign-process-footer{
+    background-color: #f3f3f3;
+    padding: 30px 60px;
+}
+.sign-process-footer .faq-sign-links .Link{  
+    color:gray;
+    text-decoration: none;
+    
+}
+.sign-process-footer .faq-sign-links .Link:hover{  
+    text-decoration: underline;
+}
+@media screen and (max-width:480px) {
+    .second-div-in-sign img{
+        text-align: center;
+        width: 100%;
+        transform: translate(0%,0%);
+    position: static;
+    }
+    .sign-in-nav{
+        padding:10px 20px ;
+    }
+}

@@ -1,0 +1,139 @@
+ 
+.part1{
+    border-bottom: 10px solid rgb(32, 31, 31);
+    border-top: 10px solid rgb(32, 31, 31);
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+}
+
+.vedio{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 20px gainsboro ;
+    cursor: pointer;
+    padding: 12px;
+
+}
+.grid1{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part2{
+    border-bottom: 10px solid rgb(32, 31, 31);
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+}
+.part2inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid antiquewhite;
+    padding: 5px;
+    width: 50%;
+    border-radius: 8px;
+    position: absolute;
+    left: 28% ;
+    top: 75%;
+    background-color: rgba(240, 248, 255, 0.283);
+}
+#part2innerimage{
+    width: 50px;
+    height: 50px;
+    
+}
+#gif{
+  width: 40px;
+  height: 40px;
+  background-blend-mode: multiply;
+  border-radius: 50%;
+
+}
+.part2image{
+    width: 100%;
+    height: auto;
+}
+.part-2-col-1{
+    position: relative;
+}
+.part-3-images{
+    width: 100%;
+    height: auto;
+}
+.part5{
+    border-bottom: 10px solid rgb(32, 31, 31);
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+}
+.frequently-asked-div{
+    height: fit-content;
+  
+}
+.second-div-asked{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.accordion{
+    padding: 15px 0px ;
+}
+.intro-footer{
+    background-color: #000000;
+    color: white;
+    padding: 60px 40px;
+}
+.col-md-3 .faq-links{
+    margin-top: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+#l{
+    background-color: #2d2d2d;
+    padding: 10px 20px;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius:3px;
+}
+
+#l:hover{
+    background-color: gainsboro;
+}
+.part5 .frequently-asked-div .accorionsummary{
+    background-color: #2d2d2d;
+    color: white;
+}
+.part5 .frequently-asked-div .accorionsummary:hover {
+  background-color: rgb(93, 91, 91);
+}
+.scroll-btn{
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    cursor: pointer; 
+    background-color:white;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+    animation: trending 1s infinite alternate;  
+    z-index: 999; 
+}
+
+@keyframes trending {
+    0% {
+        transform: scale(1.3);
+    
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+ 
+ 
+ 

@@ -1,0 +1,58 @@
+.login-form{
+position: relative;
+  top: 1%;
+  left: 33%;
+  color: white;
+  border: 2px solid white;
+  width: 450px;
+  padding: 5%;
+  background-color: rgba(0,0,0,0.7);
+}
+.outlined-basic{
+    color: white;
+}
+.learn-more{
+    cursor: pointer;
+    
+}
+.learn-more:hover{
+    text-decoration: underline;
+}
+.sign-footer{
+    background-color: black;
+    padding: 200px 20px 30px 30px;
+}
+.login-form .sign-in-btn{
+    background-color: red;
+}
+.login-form .sign-in-btn:hover{
+    background-color: red;
+}
+.sign-up-now{
+    cursor: pointer;
+}
+.sign-up-now:hover{
+    text-decoration: underline;
+}
+.forget-password{
+    cursor: pointer;
+}
+.forget-password:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:480px) {
+    .login-form{
+        width: 100%;
+        left: 0px;
+       border: none;
+       padding: 15% 4%;
+       top: 15%;
+       
+    }
+    .sign-footer{
+        background-color: black;
+        padding: 10px 0px 30px 30px;
+        overflow: hidden;
+    
+    }
+}

@@ -1,0 +1,86 @@
+.step2{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.step2 .step2-inner{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+.step2-inner Button{
+ padding: 16px;
+ font-size: 20px;
+}
+.step2-inner input{
+    height: 50px;
+}
+.verification-btn{
+    text-align: center;
+ color: orangered;
+
+}
+.step2 .step-3-next-btn{
+    padding: 16px;
+    font-size: 20px;
+    width: 100%;
+}
+.verification-btn .v{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.plan{
+background:linear-gradient(to left,blue 0%,orangered);
+margin: 10px;
+padding: 23px; ;
+color: white;
+border-radius: 8px;
+}
+ 
+ .border-box{
+    border: 1px solid rgba(128, 128, 128, 0.646);
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.534) ;
+   background-color: ghostwhite;
+ }
+ 
+
+ .box-of-plans{
+    display: flex;
+    column-gap: 10px;
+ }
+.step-4-btn-and-content{
+    padding-left: 56px; 
+}
+.step-4-btn{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+ 
+.step-4-btn Button{
+    width: 300px;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+@media screen  and (max-width:480px){
+    .step2 .step2-inner{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+    .step-3-content{
+        width: 100%;
+        padding: 20px;
+
+    }
+    .box-of-plans{
+        display: block;
+        column-gap: 10px;
+     }
+     .step-4-btn-and-content{
+        padding-left: 16px ; 
+    }
+}
